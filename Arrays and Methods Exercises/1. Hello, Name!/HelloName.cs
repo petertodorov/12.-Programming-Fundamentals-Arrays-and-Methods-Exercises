@@ -14,7 +14,7 @@ class HelloName
 
     private static void PrintName(string name)
     {
-        Console.WriteLine($"Hello {name}!");
+        Console.WriteLine($"Hello, {name}!");
     }
 }
 
