@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Altitude", "17. Altitud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Ballistics Training", "18. Ballistics Training\18. Ballistics Training.csproj", "{FA4B356B-4B5D-4132-9378-7389B2AC5B15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Debugging Tricky Strings", "19. Debugging Tricky Strings\19. Debugging Tricky Strings.csproj", "{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{FA4B356B-4B5D-4132-9378-7389B2AC5B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4B356B-4B5D-4132-9378-7389B2AC5B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4B356B-4B5D-4132-9378-7389B2AC5B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
