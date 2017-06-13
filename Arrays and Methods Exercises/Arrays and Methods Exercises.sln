@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Increasing Sequence", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Equal Sequence", "14. Equal Sequence\14. Equal Sequence.csproj", "{A6314931-C016-43F1-B382-3BE3A1D81BE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Count Capital Letters", "15. Count Capital Letters\15. Count Capital Letters.csproj", "{A70F1683-EA40-4845-91F5-D26CA6685960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70F1683-EA40-4845-91F5-D26CA6685960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70F1683-EA40-4845-91F5-D26CA6685960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70F1683-EA40-4845-91F5-D26CA6685960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70F1683-EA40-4845-91F5-D26CA6685960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

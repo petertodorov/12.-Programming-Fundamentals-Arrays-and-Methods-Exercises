@@ -14,16 +14,14 @@ namespace _14.Equal_Sequence
             int[] input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             for (int i = 1; i < input.Length; i++)
             {
-
                 if (input[i]!=input[i-1])
                 {
                     CheckIfTrue(false);
                     return;
                 }
             }
-            Console.WriteLine("yes");
+            Console.WriteLine("Yes");
         }
-
         private static void CheckIfTrue(bool equal)
         {
             Console.WriteLine("No");
