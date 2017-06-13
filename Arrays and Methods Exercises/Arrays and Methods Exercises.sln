@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Occurrences of Larger Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Increasing Sequence", "13. Increasing Sequence\13. Increasing Sequence.csproj", "{333146B9-16D5-490C-8813-6CFA1A946484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Equal Sequence", "14. Equal Sequence\14. Equal Sequence.csproj", "{A6314931-C016-43F1-B382-3BE3A1D81BE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{333146B9-16D5-490C-8813-6CFA1A946484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333146B9-16D5-490C-8813-6CFA1A946484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333146B9-16D5-490C-8813-6CFA1A946484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6314931-C016-43F1-B382-3BE3A1D81BE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
