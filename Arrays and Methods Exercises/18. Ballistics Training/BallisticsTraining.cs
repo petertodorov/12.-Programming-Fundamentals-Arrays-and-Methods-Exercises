@@ -19,8 +19,6 @@ class BallisticsTraining
 
         FindCountsAndDirections(mixed, counts, directions);
         SetCoordinatesToFire(directions, counts,tempX,tempY,x,y);
-        
-
     }
 
     private static void SetCoordinatesToFire(List<string> directions, List<int> counts,int tempX,int tempY, int x, int y)
@@ -36,7 +34,12 @@ class BallisticsTraining
             }
         }
         Console.WriteLine($"firing at [{tempX}, {tempY}]");
-        if (tempX==x && tempY==y)
+        CheckForHit(tempX, x, tempY, y);
+    }
+
+    private static void CheckForHit(int tempX, int x, int tempY, int y)
+    {
+        if (tempX == x && tempY == y)
         {
             Console.WriteLine($"got 'em!");
         }
