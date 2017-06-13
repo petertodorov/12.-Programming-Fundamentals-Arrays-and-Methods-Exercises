@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Notifications", "6. Noti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.  Numbers to Words", "7.  Numbers to Words\7.  Numbers to Words.csproj", "{5DB38022-41BC-42D9-8D6B-63F55777C5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Largest Element in Array", "9. Largest Element in Array\9. Largest Element in Array.csproj", "{3AE41F49-7EF2-4C79-85FC-E4F81659F352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
