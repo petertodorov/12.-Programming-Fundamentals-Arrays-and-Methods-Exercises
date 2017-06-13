@@ -27,7 +27,6 @@ class ArraySymetry
         else
         {
             Console.WriteLine("No");
-
         }
     }
 }

@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Count Capital Letters",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Array Symmetry", "16. Array Symmetry\16. Array Symmetry.csproj", "{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Altitude", "17. Altitude\17. Altitude.csproj", "{997740F8-9EB9-4B31-AD7C-1A809182E82E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997740F8-9EB9-4B31-AD7C-1A809182E82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997740F8-9EB9-4B31-AD7C-1A809182E82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997740F8-9EB9-4B31-AD7C-1A809182E82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997740F8-9EB9-4B31-AD7C-1A809182E82E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
