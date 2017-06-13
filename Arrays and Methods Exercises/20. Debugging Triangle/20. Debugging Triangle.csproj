@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}</ProjectGuid>
+    <ProjectGuid>{F39C5169-AC57-4CBE-B033-8BE6D5584741}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_19.Debugging_Tricky_Strings</RootNamespace>
-    <AssemblyName>_19.Debugging_Tricky_Strings</AssemblyName>
+    <RootNamespace>_20.Debugging_Triangle</RootNamespace>
+    <AssemblyName>_20.Debugging_Triangle</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DebugingTrickyStrings.cs" />
+    <Compile Include="DebuggingTriangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

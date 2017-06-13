@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Ballistics Training", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Debugging Tricky Strings", "19. Debugging Tricky Strings\19. Debugging Tricky Strings.csproj", "{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Debugging Triangle", "20. Debugging Triangle\20. Debugging Triangle.csproj", "{F39C5169-AC57-4CBE-B033-8BE6D5584741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68B58AA-7C8B-471A-A1BB-F7CEBB542D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39C5169-AC57-4CBE-B033-8BE6D5584741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39C5169-AC57-4CBE-B033-8BE6D5584741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39C5169-AC57-4CBE-B033-8BE6D5584741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39C5169-AC57-4CBE-B033-8BE6D5584741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

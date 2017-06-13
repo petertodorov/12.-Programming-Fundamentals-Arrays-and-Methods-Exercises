@@ -16,6 +16,5 @@ class TrickyStrings
             currentString[i] = Console.ReadLine(); ;
         }
         Console.WriteLine(String.Join(delimiter, currentString));
-
     }
 }
