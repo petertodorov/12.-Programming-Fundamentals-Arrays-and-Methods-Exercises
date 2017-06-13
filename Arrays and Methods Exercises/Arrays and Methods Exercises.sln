@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Equal Sequence", "14. E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Count Capital Letters", "15. Count Capital Letters\15. Count Capital Letters.csproj", "{A70F1683-EA40-4845-91F5-D26CA6685960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Array Symmetry", "16. Array Symmetry\16. Array Symmetry.csproj", "{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A70F1683-EA40-4845-91F5-D26CA6685960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70F1683-EA40-4845-91F5-D26CA6685960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70F1683-EA40-4845-91F5-D26CA6685960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD9733B-851E-4AD0-B8EE-1BCAC60E2C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
