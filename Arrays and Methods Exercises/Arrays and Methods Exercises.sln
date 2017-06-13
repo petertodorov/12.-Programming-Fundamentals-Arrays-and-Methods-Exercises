@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Nth Digit", "4. Nth Digi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Integer to Base", "5. Integer to Base\5. Integer to Base.csproj", "{7365A46D-AF51-4AE4-94F7-3B295BE2D1E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Notifications", "6. Notifications\6. Notifications.csproj", "{1DC4DA3E-1441-46DC-AEE5-F1F4DB2BDB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.  Numbers to Words", "7.  Numbers to Words\7.  Numbers to Words.csproj", "{5DB38022-41BC-42D9-8D6B-63F55777C5C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7365A46D-AF51-4AE4-94F7-3B295BE2D1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7365A46D-AF51-4AE4-94F7-3B295BE2D1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7365A46D-AF51-4AE4-94F7-3B295BE2D1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC4DA3E-1441-46DC-AEE5-F1F4DB2BDB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC4DA3E-1441-46DC-AEE5-F1F4DB2BDB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC4DA3E-1441-46DC-AEE5-F1F4DB2BDB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC4DA3E-1441-46DC-AEE5-F1F4DB2BDB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB38022-41BC-42D9-8D6B-63F55777C5C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
