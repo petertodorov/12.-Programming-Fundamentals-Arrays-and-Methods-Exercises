@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.  Numbers to Words", "7. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Largest Element in Array", "9. Largest Element in Array\9. Largest Element in Array.csproj", "{3AE41F49-7EF2-4C79-85FC-E4F81659F352}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Count", "10. Count\10. Count.csproj", "{D7A86F05-CA89-43CD-B50C-52EE56B4FBFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AE41F49-7EF2-4C79-85FC-E4F81659F352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A86F05-CA89-43CD-B50C-52EE56B4FBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A86F05-CA89-43CD-B50C-52EE56B4FBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A86F05-CA89-43CD-B50C-52EE56B4FBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A86F05-CA89-43CD-B50C-52EE56B4FBFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
