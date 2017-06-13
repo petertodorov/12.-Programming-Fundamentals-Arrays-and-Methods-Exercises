@@ -7,43 +7,49 @@ class TriangleFormations
 {
     static void Main(string[] args)
     {
-        int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
-        int c = int.Parse(Console.ReadLine());
-        double Condition1 = Mat.Pow(a) + Math.Pow(b) > Math.Pow(c);
-        double Condition2 = Mat.Pow(b) + Math.Pow(c) > Math.Pow(a);
-        double Condition3 = Mat.Pow(a) + Math.Pow(c) > Math.Pow(b);
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+        double c = double.Parse(Console.ReadLine());
+        bool hasRigthAngle = false;
 
-        bool isValidTriangle = triangleValidityCondition1 || triangleValidityCondition2 || triangleValidityCondition3;
+        bool isValidTriangle = Math.Pow(a, 2) + Math.Pow(b, 2) == Math.Pow(c, 2) || Math.Pow(b, 2) + Math.Pow(c, 2) == Math.Pow(a, 2) || Math.Pow(a, 2) + Math.Pow(c, 2) == Math.Pow(b, 2);
 
         if (isValidTriangle)
         {
             Console.WriteLine("Triangle is valid.");
+            hasRigthAngle = true;
         }
-        else
+        bool valid = false;
+        if (a + b > c && b + c > a && a + c > b)
         {
-            Console.WriteLine("Invalid Triangle.");
+            valid = true;
         }
-
-
-        if (Condition1)
+        if (valid)
         {
-            Console.WriteLine(" Triangle has a right angle between sides a and b.");
+            if (Math.Pow(a, 2) + Math.Pow(b, 2) == Math.Pow(c, 2))
+            {
+                Console.WriteLine("Triangle has a right angle between sides a and b");
 
-        }
-        else if (Condition2)
-        {
-            Console.WriteLine("Triangle has a right angle between sides b and c");
-
-        }
-        else if (Condition3)
-        {
-            Console.WriteLine("Triangle has a right angle between sides a and c");
+            }
+            else if (Math.Pow(b, 2) + Math.Pow(c, 2) == Math.Pow(a, 2))
+            {
+                Console.WriteLine("Triangle has a right angle between sides b and c");
+            }
+            else if (Math.Pow(a, 2) + Math.Pow(c, 2) == Math.Pow(b, 2))
+            {
+                Console.WriteLine("Triangle has a right angle between sides a and c");
+            }
         }
         else
         {
             Console.WriteLine("Triangle has no right angles.");
         }
+    
+        else
+        {
+            Console.WriteLine("Invalid Triangle.");
+        }
+
     }
 }
 
